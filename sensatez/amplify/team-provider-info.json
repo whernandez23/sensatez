@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-sensatez-dev-223843-authRole",
+      "UnauthRoleArn": "arn:aws:iam::152940876946:role/amplify-sensatez-dev-223843-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::152940876946:role/amplify-sensatez-dev-223843-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-sensatez-dev-223843-deployment",
+      "UnauthRoleName": "amplify-sensatez-dev-223843-unauthRole",
+      "StackName": "amplify-sensatez-dev-223843",
+      "StackId": "arn:aws:cloudformation:us-east-1:152940876946:stack/amplify-sensatez-dev-223843/4ed102a0-5e71-11ee-a739-12f5aa4a6e4f",
+      "AmplifyAppId": "d3jg961gg1brpe"
+    }
+  }
+}
