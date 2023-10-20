@@ -1,5 +1,5 @@
 body{
-    font-family: "Arial";
+    font-family: "Kanit";
     font-size: 18px;
     color: #f5ebedf5;
 }
@@ -47,12 +47,12 @@ body{
 
 h1{
     font-family: "Kanit";
-    font-weight: bold;
+    font-weight: 600;
 }
 
 h2{
     font-family: "Kanit";
-    font-weight: bold; 
+    font-weight: 500; 
     color: #ff2945;
     /* color: #FBEBB1; */
 }
@@ -104,6 +104,7 @@ main.container section img{
     vertical-align: middle; 
     line-height: 100px; 
     font-size: 30px;
+    font-weight: 400;
 }
 
 @media only screen and (max-width: 479px)
@@ -113,7 +114,7 @@ main.container section img{
     }
 
     main.container section{
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
 
     main.container section img{
