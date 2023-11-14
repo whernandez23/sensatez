@@ -18,10 +18,21 @@ header img{
     margin-right: auto;
 }
 
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+
 .navbar-brand{
-    margin-left: 30px;
     font-size: 16px;
     color: #151C28;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.navbar-brand:hover{
+    box-shadow: 0 2.4px 0 #151C28;
 }
 
 nav
