@@ -13,11 +13,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.sensatez.net/index.html</loc>
-  <lastmod>2023-11-18T18:52:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.sensatez.net/featured.html</loc>
   <lastmod>2023-11-18T18:52:11+00:00</lastmod>
   <priority>0.80</priority>
@@ -100,6 +95,11 @@
 <url>
   <loc>https://www.sensatez.net/re4r.html</loc>
   <lastmod>2023-11-18T18:52:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.sensatez.net/lethal-company.html</loc>
+  <lastmod>2023-11-27T15:49:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
