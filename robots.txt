@@ -1,0 +1,4 @@
+user-agent: *
+Disallow: /smbw/*
+
+Sitemap: https://www.sensatez.net/sitemap.xml
