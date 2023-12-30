@@ -84,21 +84,14 @@ h2{
     color: #ff2945;
 }
 
-.box-shadow
-{
-    float: left;
-    box-shadow: 5px 5px 1px #ff2945;
-}
+
 
 main.container section{
-    margin-bottom: 15%;
+    margin-bottom: 20px;
     clear: both;
+    overflow: hidden;
+    max-width: 95%;
 }
-
-/* main.container section <FOR MOBILE>{
-    margin-bottom: 30px;
-    clear: both;
-} */
 
 main.container section img{
     display: block;
