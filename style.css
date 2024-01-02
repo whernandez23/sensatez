@@ -23,6 +23,9 @@ header img{
     justify-content: center;
 }
 
+h2{
+    font-size: 28px;
+}
 
 .navbar-brand{
     font-size: 16px;
@@ -84,13 +87,26 @@ h2{
     color: #ff2945;
 }
 
+.box-shadow
+{
+    border-radius: 12px; 
+}
 
+.box-top
+{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.box-bottom
+{
+    border-radius: 0px 0px 10px 10px;
+}
 
 main.container section{
     margin-bottom: 20px;
     clear: both;
     overflow: hidden;
-    max-width: 95%;
+    max-width: 100%;
 }
 
 main.container section img{
@@ -128,7 +144,7 @@ main.container section img{
 }
 
 
-@media only screen and (max-width: 479px)
+@media only screen and (max-width: 767px)
 {
     .banner{
         height: 110px;
