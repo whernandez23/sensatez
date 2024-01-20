@@ -1,11 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: "Kanit";
     font-size: 18px;
     color: #f5ebedf5;
-}
-
-.banner{
-    height: 130px;
 }
 
 header{
@@ -21,10 +23,15 @@ header img{
 .navbar{
     display: flex;
     justify-content: center;
+    padding: 0 24px;
 }
 
 h2{
     font-size: 28px;
+}
+
+.banner{
+    height: 110px;
 }
 
 .navbar-brand{
@@ -40,13 +47,107 @@ h2{
 
 nav
 {
-    background-color: #FBE89D;
+    background-color: #ff2945;
 }
 
 #bottom-nav{
     background-color: #ff2945;
 }
 
+li{
+    list-style: none;
+}
+
+.nav-link{
+    color: #151C28;
+    text-decoration: none;
+    transition: 0.7s ease;
+}
+
+.nav-link:hover{
+    color: #ff2945;
+}
+
+.hamburger{
+    /* display: none; */
+    cursor: pointer;
+    position: absolute;
+    left: 50px;
+    z-index: 2;
+}
+
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.bar{
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin: 3px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #151C28;
+    border-radius: 6px;
+    z-index: 2;
+}
+
+.nav-menu{
+    position: fixed;
+    left: -100%;
+    top: 0px;
+    gap: 0;
+    flex-direction: column;
+    background-color:#f5ebedf5;
+    width: 400px;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 130px;
+    transition: 0.3s;
+    font-weight: 500;
+    font-size: 35px;
+    z-index: 1;
+}
+
+.nav-menu::before,
+.nav-menu::after {
+    content: "";
+    display: block;
+    height: 18px;
+    background-color: #151C28; /* Color of the bars */
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.nav-menu::before {
+    top: 0px; /* Adjust the top position to fit above your hamburger button */
+    background: linear-gradient(to right, #ff2945 50%, #151C28 50%);
+}
+
+.nav-menu::after {
+    bottom: -1px;
+    background-color:#ff2945;
+    background: linear-gradient(to right, #151C28 50%, #ff2945 50%);
+}
+
+.nav-item{
+    margin: 16px 0;
+    padding-right: 40px;
+}
+
+.nav-menu.active{
+    left: 0%; 
+}
 
 .center{
     display: flex;
@@ -146,8 +247,36 @@ main.container section img{
 
 @media only screen and (max-width: 767px)
 {
-    .banner{
-        height: 110px;
+
+    .bar{
+        width: 28px;
+    }
+
+    .hamburger{
+        left: 22px;
+    }
+
+    .nav-menu{
+        left: -200%;
+        position: fixed;
+        left: -100%;
+        top: 0px;
+        gap: 0;
+        flex-direction: column;
+        background-color:#f5ebedf5;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-top: 130px;
+        transition: 0.3s;
+        font-weight: 500;
+        font-size: 35px;
+        z-index: 1;
+    }
+
+    .navbar navbar-expand-lg{
+        height: 100px; 
     }
 
     main.container section{
@@ -172,6 +301,19 @@ main.container section img{
     padding-left: 40px;
     }
 
+}
+
+@media only screen and (max-width: 420px)
+{
+
+    
+    .banner{
+        height: 78px; 
+    }
+
+    .navbar{
+        padding-left: 80px;
+    }
 }
 
 
