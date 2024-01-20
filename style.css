@@ -58,6 +58,10 @@ li{
     list-style: none;
 }
 
+.about-list{
+    list-style: circle;
+}
+
 .nav-link{
     color: #151C28;
     text-decoration: none;
@@ -253,7 +257,7 @@ main.container section img{
     }
 
     .hamburger{
-        left: 22px;
+        left: 25px;
     }
 
     .nav-menu{
@@ -273,10 +277,6 @@ main.container section img{
         font-weight: 500;
         font-size: 35px;
         z-index: 1;
-    }
-
-    .navbar navbar-expand-lg{
-        height: 100px; 
     }
 
     main.container section{
