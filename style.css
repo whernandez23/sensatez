@@ -27,7 +27,7 @@ header img{
 }
 
 h2{
-    font-size: 28px;
+    font-size: 24px; 
 }
 
 .banner{
@@ -240,6 +240,10 @@ main.container section img{
     padding-left: 40px;
 }
 
+.container{
+    padding-top: 140px;
+}
+
 @media only screen and (max-width: 1000px)
 {
     #sidebar
@@ -280,7 +284,7 @@ main.container section img{
     }
 
     main.container section{
-        margin-bottom: 40px;
+        margin-bottom: 25px;
     }
 
     main.container section img{
@@ -313,6 +317,10 @@ main.container section img{
 
     .navbar{
         padding-left: 80px;
+    }
+
+    .container{
+        padding-top: 90px;
     }
 }
 
