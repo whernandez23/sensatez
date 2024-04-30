@@ -176,6 +176,10 @@ h2{
     /* color: #FBEBB1; */
 }
 
+.review-date{
+    float: right;
+}
+
 .headline
 {
     color: #FBE89D;
@@ -321,6 +325,11 @@ main.container section img{
 
     .container{
         padding-top: 90px;
+    }
+
+    .lead{
+        font-size: 16px;
+        font-weight: 400;
     }
 }
 
