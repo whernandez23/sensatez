@@ -275,6 +275,7 @@ main.container section img{
     color: #151C28;
     font-size: clamp(2px, 3.2vw, 16px);
     font-weight: 500;
+    align-items: center;
     
     margin: 0.6rem;
 }
@@ -346,6 +347,11 @@ main.container section img{
     padding-left: 40px;
     }
 
+    .footer-heading-1{
+        margin-top: 1vh;
+        margin-left: 1vh;
+    }
+
 }
 
 @media only screen and (max-width: 420px)
@@ -376,6 +382,11 @@ main.container section img{
         font-weight: 600;
         
         margin: 0.5rem;
+    }
+
+    .footer-heading-1{
+        margin-top: 1vh;
+        margin-left: 1vh;
     }
 }
 
