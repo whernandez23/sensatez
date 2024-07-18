@@ -280,6 +280,11 @@ main.container section img{
     margin: 0.6rem;
 }
 
+.style-block{
+    margin-left: 30px; 
+    font-style: italic;
+}
+
 .sm-icon{
     width: 9%;
     object-fit: cover;
