@@ -6,7 +6,7 @@
 
 body{
     font-family: "Kanit";
-    font-size: 18px;
+    font-size: 19px;
     color: #f5ebedf5;
 }
 
@@ -188,6 +188,12 @@ h2{
 {
     color: #FBE89D;
     /* color: #ff2945; */
+}
+
+#res-img
+{
+    justify-content: center;
+    display: flex;
 }
 
 .lead
