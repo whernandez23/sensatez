@@ -168,6 +168,12 @@ body{
     font-family: "Kanit";
 }
 
+body{
+    background: linear-gradient(to bottom, #151C28 99%, #151C28 100px, #ff2945 100px, #ff2945 1%);
+    margin: 0;
+    padding: 0;
+}
+
 h1{
     font-family: "Kanit";
     font-weight: 600;
