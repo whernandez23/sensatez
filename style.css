@@ -270,6 +270,7 @@ main.container section img{
     color: white;
     display: flex;
     justify-content: center;
+    position: fixed;
 }
 
 .footer-heading-1{
