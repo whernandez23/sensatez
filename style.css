@@ -258,6 +258,30 @@ main.container section img{
     padding-top: 140px;
 }
 
+#aswift_1_host{
+    z-index: -1;
+}
+
+#aswift_2_host{
+    z-index: -1;
+}
+
+#aswift_3_host{
+    z-index: -1;
+}
+
+#aswift_4_host{
+    z-index: -1;
+}
+
+#aswift_5_host{
+    z-index: -1;
+}
+
+#aswift_6_host{
+    z-index: -1;
+}
+
 .footer-container{
     background-color: #ff2945;
     padding-bottom: 2rem;
