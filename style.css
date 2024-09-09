@@ -180,6 +180,26 @@ h2{
     /* color: #FBEBB1; */
 }
 
+.rread{
+    color: #ff2945;
+    padding-top: 10px; 
+    font-style: italic;
+}
+
+#rread-img{
+    margin-right: -1740px; 
+    width: 100%;
+}
+
+#rread-txt{
+    margin-left: 20px; 
+    font-size: clamp(2px, 4.2vw, 25px);
+}
+
+#rread-bothr{
+    padding-bottom: 10px;
+}
+
 .review-date{
     float: right;
 }
@@ -279,6 +299,10 @@ main.container section img{
 }
 
 #aswift_6_host{
+    z-index: -1;
+}
+
+#aswift_7_host{
     z-index: -1;
 }
 
