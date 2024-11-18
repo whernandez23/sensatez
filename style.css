@@ -200,6 +200,10 @@ h2{
     padding-bottom: 10px;
 }
 
+.arh2-spc{
+    padding-top: 16px;
+}
+
 .review-date{
     float: right;
 }
