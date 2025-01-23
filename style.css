@@ -6,7 +6,7 @@
 
 body{
     font-family: "Kanit";
-    font-size: 19px;
+    font-size: 19.25px;
     color: #f5ebedf5;
 }
 
@@ -178,6 +178,10 @@ h2{
     font-weight: 500; 
     color: #ff2945;
     /* color: #FBEBB1; */
+}
+
+.container.my-4{
+    max-width: 1100px;
 }
 
 .rread{
@@ -357,6 +361,10 @@ main.container section img{
     {
         display: none;
     }
+
+    .container.my-4{
+        max-width: 700px;
+    }
 }
 
 
@@ -405,6 +413,10 @@ main.container section img{
     main.container section img{
         block-size: auto;
         margin-bottom: 15px;
+    }
+
+    .container.my-4{
+        max-width: 700px;
     }
 
     .box-shadow{
