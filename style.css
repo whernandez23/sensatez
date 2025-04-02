@@ -262,6 +262,14 @@ main.container section img{
     height: 220px;
     margin-right: 20px;
 }
+ 
+main.container section h2{
+    font-size: 21px;  
+}
+
+main.container section p{
+    font-size: 18px;
+}
 
 .center{
     border-radius: 12px;
