@@ -262,14 +262,6 @@ main.container section img{
     height: 220px;
     margin-right: 20px;
 }
- 
-main.container section h2{
-    font-size: 21px;  
-}
-
-main.container section p{
-    font-size: 18px;
-}
 
 .center{
     border-radius: 12px;
@@ -363,6 +355,19 @@ main.container section p{
 
 }
 
+@media only screen and (max-width: 1220px) 
+{
+   
+    main.container section h2{
+        font-size: 21px;  
+    }
+    
+    main.container section p{
+        font-size: 18px;
+    }    
+
+}
+
 @media only screen and (max-width: 1000px)
 {
     #sidebar
@@ -373,8 +378,8 @@ main.container section p{
     .container.my-4{
         max-width: 700px;
     }
-}
 
+}
 
 @media only screen and (max-width: 767px)
 {
