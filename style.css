@@ -6,7 +6,7 @@
 
 body{
     font-family: "Kanit";
-    font-size: 19.25px;
+    font-size: 19.5px;
     color: #f5ebedf5;
 }
 
@@ -171,6 +171,7 @@ body{
 h1{
     font-family: "Kanit";
     font-weight: 600;
+    font-size: 36px;
 }
 
 h2{
@@ -181,7 +182,7 @@ h2{
 }
 
 .container.my-4{
-    max-width: 1100px;
+    max-width: 930px;
 }
 
 .rread{
@@ -315,6 +316,11 @@ main.container section img{
     z-index: -1;
 }
 
+.youtube{
+  width: 100%;
+  height: 403px;
+}
+
 .footer-container{
     background-color: #ff2945;
     padding-bottom: 2rem;
@@ -364,7 +370,7 @@ main.container section img{
     
     main.container section p{
         font-size: 18px;
-    }    
+    }
 
 }
 
@@ -376,7 +382,7 @@ main.container section img{
     }
 
     .container.my-4{
-        max-width: 700px;
+        max-width: 600px;
     }
 
 }
@@ -429,7 +435,7 @@ main.container section img{
     }
 
     .container.my-4{
-        max-width: 700px;
+        max-width: 600px;
     }
 
     .box-shadow{
